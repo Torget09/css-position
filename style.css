@@ -13,6 +13,7 @@ span, a {
 .kok {
     background: linear-gradient(to right, blue, rgb(29, 112, 112));
     padding: 200px;
+    min-height: 100vh;
 }
 .pic {
     position:absolute;
