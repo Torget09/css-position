@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+span, a {
+    display: inline-block;
+}
+.kok {
+    background: linear-gradient(to right, blue, rgb(29, 112, 112));
+    padding: 200px;
+}
+.pic {
+    position:absolute;
+    top: -60px;
+    left: -50px;
+    width: 100px;
+    border-radius: 50%;
+    border: 7px solid orangered;
+    box-shadow: 0 0 10px black;
+}
+.box {
+    background-color: white;
+    color: black;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0  10px black;
+    border-radius: 20px;
+    position: relative;
+}
+.bx {
+    margin-top: 70px;
+}
+.p {
+    color: rgb(114, 112, 112);
+    margin-bottom: 10px;
+}
+.pp {
+    color: rgb(28, 28, 28);
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.h1 {
+    margin-bottom: 20px;
+}
+.btn {
+    background: linear-gradient(to right, rgb(150, 115, 102), orangered);
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 orangered;
+    margin-bottom: 20px;
+}
+
+@media(max-width:800px) {
+    .kok {
+        padding: 100px;
+    }
+}
+@media(max-width:500px) {
+    .kok {
+        padding: 80px;
+    }
+    .p, .h1, .pp {
+        width: 100%;
+    }
+}
+@media(max-width:400px) {
+    .kok {
+        padding: 80px;
+    }
+    .pp {
+        width: 100%;
+    }
+    .h1 {
+        font-size: 28px;
+    }
+}
+@media(max-width:350px) {
+    .kok {
+        padding: 80px 50px;
+    }
+    .pp {
+        width: 100%;
+    }
+    .h1 {
+        font-size: 28px;
+    }
+}
+@media(max-width:300px) {
+    .kok {
+        padding: 100px 50px;
+    }
+    .pp {
+        width: 100%;
+    }
+    .h1 {
+        font-size: 28px;
+    }
+    .box {
+        padding: 15px;
+    }
+}
